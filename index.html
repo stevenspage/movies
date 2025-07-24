@@ -51,8 +51,12 @@
             margin: 0 0 10px 0;
         }
         .card-title a {
-            text-decoration: underline;
-            color: inherit;
+            text-decoration: none; /* No underline */
+            color: #8ab4f8; /* Link color */
+            transition: color 0.2s ease;
+        }
+        .card-title a:hover {
+            color: #ffffff; /* Link color on hover */
         }
         .card-info {
             font-size: 0.9em;
